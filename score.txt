@@ -1,0 +1,7 @@
+2022-03-04 08:34:29;Mina ise;Veoautojuht;I
+2022-03-04 09:57:39;Gamer;Suvila;E, O
+2022-03-04 09:58:30;Kes sa oled mängur :);Elumaja;I, O, R
+2022-03-04 09:59:23;Ikka veel ei saa;Kutseõpetaja;M
+2022-03-04 10:46:58;Juhuu;Eramu;
+2022-03-04 10:47:24;Nu nuh;Kasvuhoone;I, Õ, Ä, Ö
+2022-03-04 10:48:34;Appi kui lihtne :D;Bussijuht;A, E, O

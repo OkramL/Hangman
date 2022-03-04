@@ -1,0 +1,31 @@
+Hangman täiendused
+
+1. Kui mäng on läbi, siis muuda Saada nupp halliks!
+2. Kui vajutatakse Uus mäng, siis muuda Saada nupp klikitavaks!
+
+3. Kui mäng käivitatakse, siis Saada nuppu vajutada ei saa. Nagu mängu lõpu olukord!
+4. Veateate Label tekstivärv muuda punaseks, KUI LEITI vale täht/tähed. Muidu on must!
+5. Tähed mis on valesti sisestatud hoia listis TRÜKITÄHENA.
+6. Näita valesti sisestatud tähti A, B, C mitte ['a', 'b', 'c'] või ['A', 'B', 'C']
+
+7. Muuda arvatava sõna taustavärv ka kollakseks.
+8. Kui mäng on läbi. Küsi kasutajalt nime ja lisa see nimi edetabeli faili. Lisa sinna 
+   juurde vajalik info. Kuupäev, kellaaeg. Arvatav sõna. Lõpptulemus kõik valesti 
+   sisestatud tähed. Kui tähti pole, siis kirjuta None.
+   
+   simpledialog - mida kasutada nime küsimiseks
+   Kui kasutaja nime ei kirjuta, siis on nimeks TEADMATA
+   score.txt - siin hoitakse mängu tulemusi
+   kuupäev kellaaeg;nimi;new_word;all_user_chars <- mängu tulemuse faili sisu
+   2022-03-02 17:00:00;Marko;Kasuvuhoone;None
+   2022-03-02 17:06:59;Lammas;Eramu;Q, W, Ü, Õ, X, C, Z, Ö
+   2022-03-02 21:59:59;aPpI;Hoone;M
+
+   https://runestone.academy/ns/books/published/thinkcspy/GUIandEventDrivenProgramming/02_standard_dialog_boxes.html
+   Single Value Data Entry
+
+9. Lisame mängule "Edetabeli" nupu koos edetabeli faili sisu näitamise tabeli Treeview 
+   kujul Toplevel() aknas.
+
+10. Kuupäeva näitamine Edetabelis muuta kujult 2022-03-02 08:34:29 => 02.03.2022 08:34:29
+    Võib kasutada stringiga manipuleerimist. Faili score.txt sisu muuta ei tohi.
